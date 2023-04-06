@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(90deg,  #96ccf055, #ffffff);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.dcenter-div{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-20%);
+}
+.textcap{
+  text-transform: capitalize;
 }

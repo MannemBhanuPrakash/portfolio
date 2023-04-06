@@ -1,7 +1,6 @@
-// import { BrowserRouter, Router, Route } from "react-router-dom";
-// import Home from "./Pages/Home";
 import Router from "./Router/Router";
 import Header from "./Common/Header";
+import Footer from "./Common/Footer";
 
 
 function App() {
@@ -9,6 +8,7 @@ function App() {
     <>
     <Header/>
     <Router/>
+    <Footer/>
     </>
   );
 }
